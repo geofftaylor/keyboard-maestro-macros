@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>530285818.201805</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>DisplayKind</key>
+						<string>None</string>
+						<key>HonourFailureSettings</key>
+						<true/>
+						<key>IncludeStdErr</key>
+						<false/>
+						<key>MacroActionType</key>
+						<string>ExecuteAppleScript</string>
+						<key>Path</key>
+						<string></string>
+						<key>Text</key>
+						<string>set deviceName to "The name of your iPad"tell application "System Events"	tell process "SystemUIServer"		click (menu bar item 1 of menu bar 1 whose description contains "Displays")		set displaymenu to menu 1 of result		if ((menu item 1 where its name starts with deviceName) of displaymenu) exists then			-- Not connected, so click the name of the device to connect			click ((menu item 1 where its name starts with deviceName) of displaymenu)		else			-- Connected, so click "Disconnect" to disconnect			click ((menu item 1 where its name starts with "Disconnect") of displaymenu)		end if	end tellend tell</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>TrimResults</key>
+						<true/>
+						<key>TrimResultsNew</key>
+						<true/>
+						<key>UseText</key>
+						<true/>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>606072667.74018705</real>
+				<key>ModificationDate</key>
+				<real>606088576.46409297</real>
+				<key>Name</key>
+				<string>Sidecar: Connect/Disconnect</string>
+				<key>Triggers</key>
+				<array>
+					<dict>
+						<key>FireType</key>
+						<string>Pressed</string>
+						<key>KeyCode</key>
+						<integer>69</integer>
+						<key>MacroTriggerType</key>
+						<string>HotKey</string>
+						<key>Modifiers</key>
+						<integer>4096</integer>
+					</dict>
+				</array>
+				<key>UID</key>
+				<string>D81634FA-C7EE-4733-85E3-BEF3AF5EB32E</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Global Macro Group</string>
+		<key>ToggleMacroUID</key>
+		<string>18F3810D-E740-4305-B117-0E217C666288</string>
+		<key>UID</key>
+		<string>F12E8B1C-0E6B-407F-9E08-35199F17D2D9</string>
+	</dict>
+</array>
+</plist>

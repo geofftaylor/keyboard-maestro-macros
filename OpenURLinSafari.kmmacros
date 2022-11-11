@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Activate</key>
+		<string>Normal</string>
+		<key>CreationDate</key>
+		<real>681309266.58483696</real>
+		<key>Macros</key>
+		<array>
+			<dict>
+				<key>Actions</key>
+				<array>
+					<dict>
+						<key>ActionUID</key>
+						<integer>58203</integer>
+						<key>AllWindows</key>
+						<true/>
+						<key>AlreadyActivatedActionType</key>
+						<string>Normal</string>
+						<key>Application</key>
+						<dict>
+							<key>BundleIdentifier</key>
+							<string>com.apple.Safari</string>
+							<key>Name</key>
+							<string>Safari</string>
+							<key>NewFile</key>
+							<string>/Applications/Safari.app</string>
+						</dict>
+						<key>MacroActionType</key>
+						<string>ActivateApplication</string>
+						<key>ReopenWindows</key>
+						<false/>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>ActionUID</key>
+						<integer>58192</integer>
+						<key>Argument</key>
+						<string>%TriggerValue%</string>
+						<key>Command</key>
+						<string>NewTab</string>
+						<key>MacroActionType</key>
+						<string>SafariControl</string>
+						<key>TimeOutAbortsMacro</key>
+						<true/>
+						<key>WebBrowser</key>
+						<string>Safari</string>
+					</dict>
+				</array>
+				<key>CreationDate</key>
+				<real>681656787.27517104</real>
+				<key>CustomIconData</key>
+				<string>KMEP-GenericApplication-/Applications/Safari.app</string>
+				<key>ModificationDate</key>
+				<real>681955289.70163596</real>
+				<key>Name</key>
+				<string>Open URL in Safari</string>
+				<key>Triggers</key>
+				<array/>
+				<key>UID</key>
+				<string>5437699B-91D1-4540-BCCA-75AA365993C3</string>
+			</dict>
+		</array>
+		<key>Name</key>
+		<string>Macros For Shortcuts</string>
+		<key>ToggleMacroUID</key>
+		<string>8FDF74B8-297C-4E0D-A342-16CB80E87CEC</string>
+		<key>UID</key>
+		<string>AAB7D57D-96A6-4858-BCD3-03E934E549DE</string>
+	</dict>
+</array>
+</plist>
